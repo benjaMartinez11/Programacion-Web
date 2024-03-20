@@ -1,0 +1,20 @@
+/*Este es un comentario de css */
+
+.centrar-texto {
+  text-align: center;
+}
+
+.centrar-cajas {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.borde {
+  border: 1px solid rgb(3, 91, 255);
+  border-radius: 40px;
+}
+
+.borde2 {
+  border: 1px solid rgb(0, 255, 76);
+  border-radius: 40px;
+}
