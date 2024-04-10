@@ -1,0 +1,16 @@
+.Alinear {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Alinear2 {
+  display: grid;
+  grid-template-columns: repeat (3, 500px);
+  grid-template-rows: repeat(3, 300px);
+}
+
+.Columna {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}

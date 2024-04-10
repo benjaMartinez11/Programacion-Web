@@ -1,0 +1,36 @@
+-1- La propiedad de CSS que se utiliza para cambiar el comportamiento de los elementos en un 
+contenedor para permitir un diseño flexible y eficiente es display. Esta propiedad controla cómo un 
+elemento se muestra en el diseño. Algunos de los valores comunes para display son block, inline, 
+inline-block, flex, grid.
+
+-2- La propiedad de CSS que permite definir el espacio entre los elementos hijos dentro de un 
+contenedor flex o grid es gap. Esta propiedad se introdujo en CSS Grid Layout y luego se extendió a 
+Flexbox.
+
+-3- En un contenedor flex, tanto justify-content como align-items son propiedades CSS que se 
+utilizan para controlar la alineación y distribución de los elementos hijos. Sin embargo, tienen 
+distintas funciones y afectan a los elementos en direcciones diferentes justify-content: Esta 
+propiedad controla la alineación de los elementos a lo largo del eje principal del contenedor flex. 
+En otras palabras, justify-content se aplica a la dirección en la que los elementos flexibles 
+están dispuestos. Por ejemplo, si el contenedor flex tiene una dirección de fila
+ (flex-direction: row), entonces justify-content controlará la alineación horizontal de los 
+ elementos. Si el contenedor flex tiene una dirección de columna (flex-direction: column)
+ , entonces justify-content controlará la alineación vertical de los elementos. 
+
+-4- La propiedad de CSS que se utiliza para definir el tamaño de las filas y columnas en un contenedor 
+grid es grid-template-rows para las filas y grid-template-columns para las columnas.grid-template-rows
+:Esta propiedad se utiliza para definir el tamaño de las filas en un contenedor grid.
+Puedes especificar el tamaño de cada fila individualmente o utilizar valores abreviados como auto 
+(tamaño automático), 1fr (una fracción del espacio disponible) o unidades absolutas como px, em, etc.
+
+-5- display: flex: Esta propiedad convierte al contenedor en un contenedor flexible que organiza sus 
+elementos hijos a lo largo de un eje principal (por defecto, horizontalmente). Los elementos dentro 
+de un contenedor flex se pueden organizar en una sola fila (flex-direction: row), una sola columna 
+(flex-direction: column), o en cualquier otra dirección según sea necesario. Los elementos pueden 
+ocupar el espacio disponible de manera flexible, y se pueden alinear y distribuir a lo largo del eje 
+principal y perpendicular utilizando propiedades como justify-content y align-items. display: flex 
+es ideal para diseñar diseños simples y flexibles con alineación unidimensional.
+
+-6- Los elementos hijos dentro de un contenedor flex se pueden alinear utilizando varias propiedades 
+de CSS. Las dos propiedades principales para alinear elementos en un contenedor flex son
+justify-content y align-items.
