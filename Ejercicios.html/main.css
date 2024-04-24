@@ -27,9 +27,26 @@
 .Columnas {
   display: grid;
   grid-template-columns: repeat(3, 300px);
-  grid-template-rows: repeat(3, 300px);
+  grid-template-rows: repeat(3, 400px);
+  gap: 20px;
 }
 .escalas {
   display: grid;
   grid-template-columns: 200px, 200px, 200px;
+}
+.Fondos {
+  background-color: rgb(25, 212, 56);
+  border-radius: 10px;
+}
+
+.tamaño {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.alinearC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
