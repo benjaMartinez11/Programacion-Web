@@ -1,0 +1,15 @@
+.Encabezado {
+  width: 20%;
+  background-color: rgb(247, 230, 4);
+  font-family: sans-serif;
+}
+
+.lista {
+  border: 1px solid black;
+  margin: 25px 50px 75px 100px;
+  padding: 50px 100px 50px 50px;
+}
+
+.imagen {
+  border-radius: 30px;
+}

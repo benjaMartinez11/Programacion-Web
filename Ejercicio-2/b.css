@@ -1,0 +1,48 @@
+.centrado {
+  text-align: center;
+}
+
+.alineamiento-Titulo {
+  display: flex;
+  justify-content: center;
+}
+
+.grilla {
+  display: grid;
+
+  /*Forma 3 */
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-auto-rows: auto;
+  gap: 100px;
+}
+
+.fotoDinamica {
+  width: 95%;
+  aspect-ratio: 9 / 16; /* Puede ser opcional --> le da estructura a las fotos  */
+  /* si es widescreen o si es tipo retrato */
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.colorPeliculas {
+  background-color: rgb(255, 251, 0);
+  border: 10px solid rgb(0, 0, 0);
+  border-radius: 50px;
+}
+
+.alineamientoFoto {
+  display: flex;
+  flex-direction: column; /*La direccion en la que va a estar el contendio */
+  align-items: center; /* Alinea el contenido al centro*/
+}
+
+.button {
+  background-color: #eeff00; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
