@@ -1,10 +1,20 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+// src/App.js
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+import React from 'react';
+import './App.css';
+import CurrencyList from './components/CurrencyList';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Conversor de Monedas</h1>
+      </header>
+      <main>
+        <CurrencyList />
+      </main>
+    </div>
+  );
+}
+
+export default App;
