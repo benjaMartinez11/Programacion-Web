@@ -1,0 +1,50 @@
+/*tenemos 3 tipos de selectores*/
+
+/*Etiqueta: Aplica estilos a todas las etiquetas del mismo tipo.
+css
+*/
+p {
+  color: blue;
+}
+
+/*Clase (.): Aplica estilos a cualquier elemento con esa clase.
+css
+*/
+
+.destacado {
+  font-weight: bold;
+  color: red;
+}
+
+/*ID (#): Aplica estilos a un solo elemento con ese ID.
+css
+*/
+
+#titulo {
+  font-size: 30px;
+  text-align: center;
+}
+
+/*propiedades fundamentales*/
+p {
+  color: darkblue; /* Color del texto */
+  background-color: lightgray; /* Fondo del elemento */
+  font-size: 18px; /* Tamaño de fuente */
+  font-family: Arial, sans-serif; /* Tipo de letra */
+  text-align: center; /* Alineación del texto */
+  border: 2px solid black; /* Borde alrededor del elemento */
+  /*en el borde recibimos 3 valores: grosor-linea estilo-linea color-linea sin alguno de ellos el borde no se ve*/
+  margin: 40px; /* Espacio externo */
+  padding: 10px; /* Espacio interno */
+}
+/*Modelo de Caja y Display
+Concepto del Modelo de Caja
+*/
+
+div {
+  width: 300px; /*ancho-> ambos pueden recibir valores dinamicos y estaticos*/
+  height: 100px; /*alto*/
+  padding: 10px;
+  border: 2px solid black;
+  margin: 20px;
+}

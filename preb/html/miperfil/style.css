@@ -1,0 +1,15 @@
+p {
+  color: blue;
+}
+
+.destacado {
+  font-weight: bold;
+  color: rgb(0, 81, 255);
+  background-color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 68, 255);
+  width: 350px;
+}
+
+body {
+  background-color: rgb(52, 124, 218);
+}
