@@ -1,0 +1,28 @@
+🧠 PARTE TEÓRICA
+1-
+La diferencia del del for y el forEach es que el for es algo mas manual cuando queremos poder mostrar la pocicion y los valores de nuestra lista y el forEach es mas automatico porque ya te muestra la posicion y tu lista.
+
+2- 
+Una "const nuevoArreglo = arreglo.map( (item, index)=> (
+     item + 1
+))"es una funcion mas corta.
+
+no tienen diferencia porque hacen lo mismo
+const nuevoArreglo = arreglo.map( (item, index)=> (
+     item + 1
+))
+es mas corta
+
+
+const mapFuncionNormal = arreglo.map( function(item, index){
+    return item + 1 
+})
+es mas larga
+
+3-
+el metodo .forEach() en una array no debuelve nada porque la funcion esta ehca solo para recorrer, mientras que map si debuelve un areglo nuevo con los camvios echos.
+
+4-para eliminar el ultimo el último elemento de un array se usa el pop();
+var array = [10, 11, 12, 13, 14, 15, 16, 17];
+array.pop();
+console.log(array);
