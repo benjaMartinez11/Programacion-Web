@@ -30,8 +30,10 @@ console.log(lista[0]) //accedo a un elemento del arreglo por medio de su posicio
 
 //en los parametros de una funcion van a ir lo que luego recibira para procesar 
 function obtenerPrecioPromedio(arreglo){
- if (obtenerPrecioPromedio <)
+arreglo.forEach( function( index){
+   for(let i = 0; i < productos.length ; i++){
+})
+   console.log("nuevo", arreglo)
 }
-
-
+obtenerPrecioPromedio(productos)
 ///800+500+50=1350÷450

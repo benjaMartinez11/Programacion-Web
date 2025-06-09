@@ -78,9 +78,9 @@ console.log(listas[1]) //acceder a posicion de una lista/array
 //recorrer una lista y mostrar por pantalla los numeros que solamente sean pares 
 const listaNum = [10,2,5,8,9]
 
-for(let i = 0; i < listaNum.length ; i++){
+//for(let i = 0; i < listaNum.length ; i++){
     
     if (listaNum[i] % 2 == 0) {
         console.log("numeros pares:", listaNum[i],"posicion:", i)
     }
-}
+}*/
